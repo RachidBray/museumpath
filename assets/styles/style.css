@@ -1,0 +1,112 @@
+/* @todo: remove this once issue fixed 
+* Gtihub: https://github.com/AyeCode/blockstrap-page-builder-blocks/issues/61
+*/
+.sidebar-search .geodir-filter-cat {
+    width: 100%;
+}
+
+/* MuseumPath Archive Page */
+@media (min-width: 576px) {
+.row.row-cols-md-0 .card .card-header {
+    flex: 1 40%;
+}
+}
+
+
+
+.wp-block-search__input {
+    border: 1px solid #4f4e52;
+    border-radius: 0;
+}
+
+.wp-block-search__button {
+    border-radius: 0;
+}
+
+/*  bs form elements */
+.form-select,
+div.form-control,
+textarea.form-control,
+input.form-control,
+select.form-control,
+.form-control {
+    border: 1px solid #4f4e52 !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    border-radius: 0 !important;
+}
+
+/*  bs btn elements */
+.btn-group .btn,
+.btn {
+     --bs-btn-border-radius: 0 !important;
+     border-radius: 0 !important;
+}
+
+   
+/* @todo: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.
+* This CSS rule can be deprecated when issues is fixed.
+*/
+.gd-cptcat-cat-left.bg-white {
+	background-color: transparent !important;
+}
+
+/* @todo: This CSS rule can be deprecated when shadow opacity control is implemented
+* Reduce Shadow opacity
+*/
+span.shadow-lg,
+div.shadow-lg {
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.08) !important;
+}
+
+span.shadow,
+div.shadow {
+	box-shadow: 0 0.125rem 0.5rem -0.25rem rgba(31, 27, 45, 0.08), 0 0.25rem 1rem rgba(31, 27, 45, 0.08) !important;
+}
+
+/* 
+* //@todo: UsersWP My account page
+*/
+
+/* Remove borders from nav items and adjust spacing */
+.uwp-account-class .navbar-light .nav-item {
+	border: 0;
+}
+
+.uwp-account-class .navbar-light .nav-item .nav-link {
+	display: flex;
+	align-items: center;
+}
+
+/* Add border radius */
+.uwp-account-class .navbar-light {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+/* Disable borders for gallery images */
+.geodir-images .card {
+    border: 0 !important;
+}
+
+
+/* 
+* //@todo: UsersWP
+*/
+
+/* Account navigation */
+.uwp_page .navbar-light .bg-light,
+.uwp_page .navbar-light {
+    background-color: transparent !important;
+}
+
+/*  Author box */
+.uwp_widget_author_box .bg-light {
+    background-color: rgba(var(--bs-gray-dark-rgb),.9) !important;
+}
+
+.uwp_widget_author_box {
+    overflow: hidden;
+}
+
+
